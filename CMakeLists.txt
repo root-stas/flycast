@@ -987,8 +987,7 @@ if(NOT LIBRETRO)
 			core/deps/rcheevos/src/rhash/aes.c
 			core/deps/rcheevos/src/rhash/cdreader.c
 			core/deps/rcheevos/src/rhash/hash.c
-			core/deps/rcheevos/src/rhash/md5.c
-			core/deps/rcheevos/src/rurl/url.c)
+			core/deps/rcheevos/src/rhash/md5.c)
 	target_include_directories(${PROJECT_NAME} PRIVATE core/deps/rcheevos/include)
 	target_compile_definitions(${PROJECT_NAME} PRIVATE USE_RACHIEVEMENTS RC_DISABLE_LUA)
 endif()
